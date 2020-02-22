@@ -1,5 +1,5 @@
 .App-logo {
-  height: 60vmin;
+  height: 60vh;
   pointer-events: none;
 }
 
@@ -11,7 +11,7 @@
 
 .App-header {
   background: #000000;
-  box-shadow: inset 5px 5px 122px #ffffff;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,6 +34,10 @@
   }
 }
 
+.App {
+  background-color: black;
+}
+
 .App h1 {
   font-size: 8vw;
   padding-top: 6vw;
@@ -46,7 +50,7 @@
 
 .search button {
   margin: 4vw;
-  background-color: black;
+  background-color: white;
   border-color: pink;
   max-width: 60%;
 }
@@ -67,7 +71,10 @@
 // Articles
 
 body {
-  background: #f3f3f3;
+  background-color: black;
+}
+html {
+  background-color: black;
 }
 
 img {
@@ -88,7 +95,7 @@ button:focus {
 }
 
 .App-header {
-  background-color: #2c3e50;
+  background-color: #ff0055;
   height: 90px;
   padding: 30px;
   color: white;

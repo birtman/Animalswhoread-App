@@ -43,6 +43,7 @@ class App extends Component {
         <Header />
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
+        <Ticker />
       </div>
     );
   }
