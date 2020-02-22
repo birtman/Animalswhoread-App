@@ -1,0 +1,21 @@
+<svg 
+xmlns="http://www.w3.org/2000/svg" viewBox="0 0 506 417.5">
+<defs>
+<style>.cls-1,.cls-2,.cls-3{fill:#fff;}.cls-2,.cls-3{stroke:#000;stroke-miterlimit:10;stroke-width:9px;}.cls-3{stroke-linecap:round;}</style>
+</defs>
+<title>panda</title>
+<circle cx="95.5" cy="95.5" r="95.5"/>
+<circle class="cls-1" cx="95.5" cy="93" r="50"/>
+<circle cx="410.5" cy="96.5" r="95.5"/>
+<circle class="cls-1" cx="412.5" cy="94" r="50"/>
+<circle class="cls-1" cx="330.5" cy="184" r="50"/>
+<circle class="cls-1" cx="202.5" cy="187" r="50"/>
+<circle class="cls-2" cx="254" cy="222" r="191"/>
+<circle cx="188" cy="191.5" r="62.5"/>
+<circle class="cls-1" cx="188" cy="191.5" r="18.5"/>
+<circle cx="331" cy="191.5" r="62.5"/>
+<circle class="cls-1" cx="331" cy="192.5" r="18.5"/>
+<path class="cls-3" d="M637.18,407.72a118.09,118.09,0,0,1-74,78.24c-61,21.52-129-11-150.52-72" transform="translate(-264.5 -128)"/>
+<circle cx="260.5" cy="269" r="18.5"/>
+</svg>
+
