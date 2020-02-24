@@ -4,13 +4,13 @@ import TickerItem from "./TickerItem";
 
 const texts = [
   {
-    text: "ANIMALS ONLY!"
+    text: "Stand up!"
   },
   {
-    text: "NO HUMANS!"
+    text: "Fight back!"
   },
   {
-    text: "SERIOUSLY!"
+    text: "No Humans"
   }
 ];
 
