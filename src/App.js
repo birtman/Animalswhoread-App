@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Form from "./components/Form";
 import Articles from "./components/Articles";
+import Logo from "./components/Logo";
+import Mission from "./components/Mission";
 
 const API_KEY = "38c6325b37ef4200b8d0b52b8e8ab90b";
 
@@ -26,6 +28,7 @@ class App extends Component {
     console.log(this.state.articles);
   };
 
+  
   componentDidMount = () => {
     const json = localStorage.getItem("articles");
     const articles = JSON.parse(json);
@@ -40,10 +43,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Logo />
         <Header />
+        <Mission />
         <Form getArticles={this.getArticles} />
         <Articles articles={this.state.articles} />
-        <Ticker />
       </div>
     );
   }

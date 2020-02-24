@@ -32,12 +32,12 @@ $duration: 15s;
 }
 
 .ticker-wrap {
-  position: fixed;
+  font-family: "Montserrat" !important;
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  height: 4rem;
-  background-color: rgba(#fff, 0.9);
+  height: 10rem;
+  background-color: #1f33f6;
   box-sizing: content-box;
   color: black;
 
@@ -60,9 +60,17 @@ $duration: 15s;
     &__item {
       display: inline-block;
 
-      padding: 0 2rem;
-      font-size: 4rem;
+      padding: 2.4rem;
+      font-size: 10rem;
       color: black;
     }
   }
+}
+
+.is-pink {
+  color: #e57a9b;
+}
+
+.is-green {
+  color: green;
 }

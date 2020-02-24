@@ -1,5 +1,12 @@
-.body {
-  font-family: "Abril Fatface";
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600 !important;
+  line-height: 1.5;
+  color: white !important;
+  text-align: left;
+  background-color: black !important;
+  font-family: "Montserrat" !important;
 }
 
 .App-logo {
@@ -43,26 +50,16 @@
 }
 
 .App h1 {
-  font-size: 8vw;
-  padding-top: 6vw;
-  font-family: "Abril Fatface";
+  font-size: 9vw;
+  font-family: "Montserrat";
+  max-width: 50%;
+  font-weight: 900;
 }
 
 .App h2 {
   font-size: 4vw;
   padding-top: 4vw;
-}
-
-.search button {
-  margin: 4vw;
-  background-color: white;
-  border-color: pink;
-  max-width: 60%;
-}
-
-.search button:hover {
-  background-color: pink;
-  color: black;
+  font-family: "Montserrat";
 }
 
 .container {
@@ -88,7 +85,11 @@ img {
 }
 
 a {
-  color: #e74c3c !important;
+  color: #c6ecc7 !important;
+}
+
+a:hover {
+  color: black;
 }
 
 button:focus {
@@ -112,7 +113,7 @@ button:focus {
 }
 
 .article_buttons {
-  border: solid 2px #e74c3c;
+  border: solid 2px #c6ecc7;
   background: transparent;
   padding: 0.4rem 0.6rem;
   margin: 0 0.2rem;
@@ -123,11 +124,19 @@ button:focus {
   margin-left: 0.7rem;
 }
 
+.article_buttons:hover {
+  background-color: #c6ecc7;
+}
+
+.article_buttons a:hover {
+  color: black;
+}
+
 .articles__box {
-  background: #fff;
+  background: #1f33f6;
+  border: solid 2px #e57a9b;
   padding-bottom: 2rem;
-  border-radius: 5px;
-  box-shadow: -1px 2px 34px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 34px -13px white(0, 0, 0, 0.75);
   text-align: left;
   overflow: hidden;
 }
@@ -137,20 +146,21 @@ button:focus {
 }
 
 .articles__title {
-  color: #e74c3c;
-  text-transform: uppercase;
+  color: #e57a9b;
   font-size: 1.1rem;
   padding: 1.8rem 0 0.2rem 0;
 }
 
 .articles__subtitle {
   text-transform: uppercase;
+  color: white;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   letter-spacing: 2px;
 }
 
 .articles__subtitle span {
+  color: #e57a9b;
   text-transform: none;
   font-weight: 400;
   font-size: 0.8rem;
@@ -160,23 +170,24 @@ button:focus {
 .form__input {
   background: transparent;
   border: 0;
-  border-bottom: solid 2px #2c3e50;
+  border: solid 2px #c6ecc7;
   margin-right: 10px;
   letter-spacing: 2px;
   width: 10%;
   padding: 0.4rem;
+  color: white;
 }
 
 .form__button {
-  border: solid 2px #e74c3c;
+  border: solid 2px #f72143;
   background: transparent;
   padding: 0.2rem 0.9rem;
   margin: 0 0.2rem;
-  border-radius: 1px;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
   margin-left: 0.7rem;
+  color: white;
 }
 
 input[type="text"] {
@@ -188,7 +199,7 @@ input:-webkit-autofill {
   -webkit-text-fill-color: #2c3e50 !important;
 }
 
-/******** RECIPE.js ********/
+/******** Article.js ********/
 
 .active-article {
   margin: 0 auto;
@@ -223,12 +234,12 @@ input:-webkit-autofill {
   text-transform: lowercase;
   font-weight: 300;
   letter-spacing: 2px;
-  color: #e74c3c;
+  color: #f72143;
   margin-left: 10px;
 }
 
 .active-article__button {
-  border: solid 2px #e74c3c;
+  border: solid 2px #f72143;
   background: transparent;
   padding: 0.2rem 0.9rem;
   margin: 0 0.2rem;
@@ -236,4 +247,63 @@ input:-webkit-autofill {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+/* LOGO */
+
+.navbar {
+  font-family: "Abril Fatface";
+  color: white;
+}
+
+.navbar span {
+  font-size: 3vw;
+  max-width: 40%;
+}
+
+nav a {
+  color: white;
+  font-size: 2vw;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.nav {
+  height: 300px;
+  color: white;
+}
+
+.navbar__brand-img {
+  width: 7vw;
+}
+
+.nav-text-small {
+  font-size: 1vw;
+  padding-bottom: 10%;
+}
+
+/* HEADER */
+
+.header-hero .jumbotron {
+  background-image: url("./components/her-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+/* HERO */
+
+.mission-hero {
+  height: 60vh;
+  background-color: black;
+  text-align: left;
+  color: white;
+  font-size: 3vw;
+}
+
+.mission-headline {
+  color: #f72143;
+  padding-bottom: 50px;
 }
